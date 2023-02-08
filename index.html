@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+   <title>HW-21</title>
+</head>
+
+<body>
+
+   <section>
+      <div class="container">
+
+         <!--                NAV part-->
+
+         <nav class="navbar navbar-expand-lg bg-dark navbar-dark navxfont fixed-top">
+            <div class="container-fluid">
+               <a class="navbar-brand warfaze" href="#">WARFAZE</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link active home" aria-current="page" href="#">HOME</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           ALBUMS
+                        </a>
+                        <ul class="dropdown-menu albums" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item" href="#">Obaak Valobasha</a></li>
+                           <li><a class="dropdown-item" href="#">Alo</a></li>
+                           <li>
+                              <hr class="dropdown-divider">
+                           </li>
+                           <li><a class="dropdown-item" href="#">New Album coming!</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">BLOG</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">CONTACT</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">LOG IN</a>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+                     <button class="btn btn-outline-danger" type="submit">Search</button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+
+         <!--                 banner part     -->
+
+         <div class="banner">
+            <div class="banner-content">
+               <h1>MP3<br><span class="h-red">THE PERFECT MUSIC</span> <br> Welcome TO The Music</h1>
+               <p>Lorem ipsum dolor sit amet consec tetur adipiscing elit elit at felis lacinia nec et est
+                  aptent taciti sociosqu ad litora torquent per conubia nostra</p>
+               <a href="#" class="btn dl-now">Download now</a>
+            </div>
+         </div>
+
+         <!--         3 blurbs-->
+
+         <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 mx-auto">
+               <div class="card">
+                  <img src="images/IMG_2717.JPG" class="card-img-top" alt="..." height="40%">
+                  <div class="card-body">
+                     <h3>Live With Music</h3>
+                     <p class="date-red">April 13 &nbsp; &nbsp; &nbsp;Comment</p>
+                     <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at it's layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 mx-auto">
+               <div class="card">
+                  <img src="images/IMG_2722.JPG" class="card-img-top" alt="..." height="px">
+                  <div class="card-body">
+                     <h3>Best Music</h3>
+                     <p class="date-red">April 13 &nbsp; &nbsp; &nbsp;Comment</p>
+                     <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at it's layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 mx-auto">
+               <div class="card">
+                  <img src="images/IMG_2765.JPG" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h3>Live With Music</h3>
+                     <p class="date-red">April 13 &nbsp; &nbsp; &nbsp;Comment</p>
+                     <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at it's layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <br><br>
+         
+         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/slide01.JPG" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First Concert</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/slide02.JPG" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second Concert</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/slide03.JPG" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third Concert</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+        </div>
+         
+         <br><br>
+
+         <!--         footer part-->
+
+         <div class="row footer">
+            <h3>Book Your Ticket</h3>
+            <form>
+               <div class="row">
+                  <div class="col-lg-6 col-md-12 col-sm-12
+                    mb-4">
+                     <input type="name" placeholder="Name" class="inpx" required> <br><br>
+                     <input type="email" placeholder="Email" class="inpx" required>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                     <textarea class="textarea" placeholder="Your Text Here"></textarea>
+                  </div>
+               </div><br>
+               <input type="submit" value="SEND" class="sendX btn ">
+            </form>
+         </div>
+         <div class="row copy-p">
+             <div class="col-sm-12 col-lg-12 col-md-12 copyright">
+               <p>© 2021 All Rights Reserved &copy; By Team Catastrophic</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+
+
+   <!-- Optional JavaScript; choose one of the two! -->
+
+   <!-- Option 1: Bootstrap Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+   <!-- Option 2: Separate Popper and Bootstrap JS -->
+   <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body></html>
